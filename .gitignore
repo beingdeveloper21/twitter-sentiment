@@ -1,0 +1,73 @@
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+ehthumbs.db
+
+# IDEs / editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs / reports
+*.log
+coverage/
+.coverage
+htmlcov/
+
+# Secrets / local config
+.env
+credentials.json
+*.credentials.json
+*.secret.json
+secrets.json
+token.json
+token-*.json
+*.key
+*.pem
+
+# Dataset / exported JSON (ignore large local data; do NOT ignore package.json)
+data/*.json
+data/**/*.json
+outputs/*.json
+exports/*.json
+*.jsonl
+
+# Model artifacts
+models/
+*.h5
+*.pt
+*.ckpt
+*.ckpt.*
+*.pkl
+*.joblib
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+
+# Misc
+.cache/
+*.bak
+*.swp
+Thumbs.db
