@@ -4,6 +4,7 @@ desktop.ini
 .DS_Store
 ehthumbs.db
 
+.csv
 # IDEs / editors
 .vscode/
 .idea/
@@ -50,6 +51,12 @@ data/**/*.json
 outputs/*.json
 exports/*.json
 *.jsonl
+
+# Large dataset files (ignore common Twitter training dataset names)
+training.1600000*
+data/training.1600000*
+raw_data/training.1600000*
+datasets/training.1600000*
 
 # Model artifacts
 models/

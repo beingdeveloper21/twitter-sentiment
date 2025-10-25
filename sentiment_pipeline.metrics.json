@@ -1,0 +1,8 @@
+{
+  "train_accuracy":0.84955625,
+  "test_accuracy":0.801925,
+  "test_f1_macro":0.8019196953,
+  "n_train":160000.0,
+  "n_test":40000.0,
+  "vocab_size":57156.0
+}
