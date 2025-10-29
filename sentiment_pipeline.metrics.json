@@ -1,8 +1,26 @@
 {
-  "train_accuracy":0.84955625,
-  "test_accuracy":0.801925,
-  "test_f1_macro":0.8019196953,
-  "n_train":160000.0,
-  "n_test":40000.0,
-  "vocab_size":57156.0
+  "train_accuracy":0.988515625,
+  "test_accuracy":0.7795625,
+  "test_f1_macro":0.7795584003,
+  "n_train":64000,
+  "n_test":16000,
+  "word_vocab_size":46922,
+  "char_vocab_size":150000,
+  "model":"LinearSVC",
+  "tuned":true,
+  "best_params":{
+    "tfidf__word__ngram_range":[
+      1,
+      2
+    ],
+    "tfidf__word__min_df":3,
+    "tfidf__word__max_features":400000,
+    "tfidf__word__max_df":0.95,
+    "tfidf__char__ngram_range":[
+      3,
+      5
+    ],
+    "tfidf__char__max_features":150000,
+    "clf__C":1.0
+  }
 }
